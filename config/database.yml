@@ -1,6 +1,6 @@
 default: &default
   adapter: postgresql
-  url: "postgres://carnest:CSZGaXi7w1FxtumFuklqe3DgZoQ3OMQL@dpg-cka08mmv3ddc739i8l70-a.oregon-postgres.render.com/carnest"
+  url: "postgres://carnest:2xeJKUzsUsyTlFfOtcbTATbUaabvfTtx@dpg-cke1fbsgonuc7391f8kg-a.oregon-postgres.render.com/carnest_4n4v"
 
 development:
   <<: *default
