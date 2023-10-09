@@ -16,6 +16,7 @@ FactoryBot.define do
       }
     end
     images { [] }
+    blocked_address {[]}
     price { Faker::Number.between(from: 30, to: 200) }
     year { Faker::Vehicle.year }
     reserved { false }

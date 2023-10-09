@@ -85,7 +85,8 @@ module Api
           :car_brand, :car_name, :fuel_type, :transmission, :car_seats, :car_type,
           :coding_day, :plate_number, :price, :year, :reserved,
           location: [:address, position: [:lat, :lng]],
-          images: []
+          images: [],
+          blocked_address: []
         )
       end
     end
